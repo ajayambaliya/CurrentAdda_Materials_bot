@@ -107,7 +107,7 @@ def main():
         listen="0.0.0.0",
         port=int(os.environ.get("PORT", 5000)),
         url_path=BOT_TOKEN,
-        webhook_url=f"https://your-render-app-url.onrender.com/{BOT_TOKEN}"
+        webhook_url=f"https://currentadda-materials-bot.onrender.com/{BOT_TOKEN}"
     )
 
 if __name__ == '__main__':
